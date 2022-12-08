@@ -7,10 +7,10 @@ model = pickle.load(open('weather_model.sav', 'rb'))
 st.title('Prediksi Cuaca')
 
 #input
-precipitation = st.text_input('Curah')
-temp_max = st.text_input('Input Max. Temperature')
-temp_min = st.text_input('Input Min. Temperature')
-wind = st.text_input('Input Kecepatan Angin')
+precipitation = st.number_input('Curah')
+temp_max = st.number_input('Input Max. Temperature')
+temp_min = st.number_input('Input Min. Temperature')
+wind = st.number_input('Input Kecepatan Angin')
 
 cuaca = ''
 
