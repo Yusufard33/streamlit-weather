@@ -8,9 +8,9 @@ st.title('Prediksi Cuaca')
 
 #input
 precipitation = st.number_input('Curah')
-temp_max = st.number_input('Input Max. Temperature')
-temp_min = st.number_input('Input Min. Temperature')
-wind = st.number_input('Input Kecepatan Angin')
+temp_max = st.number_input('Max. Temperature')
+temp_min = st.number_input('Min. Temperature')
+wind = st.number_input('Kecepatan Angin')
 
 cuaca = ''
 
